@@ -1,0 +1,75 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-header{
+    font-weight: bold;
+    background-color: azure;
+}
+
+.nav-header li{
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-header li:hover{
+    box-shadow: 0 7px #FF7B60;
+}
+
+.content{
+    padding-top: 90px;
+}
+
+.home{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.card-overview{
+    height: 25%;
+    margin: 10px;
+    padding: 15px;
+}
+
+.card-table{
+    height: 100%;
+    margin:10px;
+}
+
+.dropdown-country{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu a{
+    background-color: #E1E1E1;
+}
+
+.more-details{
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.status-title{
+    font-weight: bold;
+}
+
+.number-status{
+    padding: 20px;
+}
+
+.word-status{
+    padding: 10px;
+    margin: 0px;
+    color: white;
+}
+

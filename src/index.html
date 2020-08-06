@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Check Covid-19</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav-header navbar fixed-top navbar-expand-lg navbar-light">
+                <header-logo src="https://cdn3.iconfinder.com/data/icons/virus-transmission-flat/48/Virus_Corona-512.png"></header-logo>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link btn navigation" id="homeNavigation" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn navigation" id="covidNavigation" href="#covid">Covid-19</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn navigation" id="navigation" href="#analytic">Analytic</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn navigation" id="navigation" href="#prevention">Prevention</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="home content container" id="home" style="height: 750px;">
+            <div class="row" style="width: inherit; height: inherit;">
+                <div class="card-overview card col">
+                    <div class="row container-fluid">
+                        <div class="col-3">
+                            <h4 class="titleOverview">Stats Overview</h4>
+    
+                            <div class="dropdown dropdown-country">
+                                <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">
+                                  Global
+                                </button>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" id="dropdown-item" href="#">Global</a>
+                                  <a class="dropdown-item" id="dropdown-item" href="#"><img src="https://www.countryflags.io/id/flat/32.png" style="margin-right: 10px;">Indonesia</a>
+                                  <a class="dropdown-item" id="dropdown-item" href="#"><img src="https://www.countryflags.io/cn/flat/32.png" style="margin-right: 10px;">China</a>
+                                  <a class="dropdown-item" id="dropdown-item" href="#"><img src="https://www.countryflags.io/my/flat/32.png" style="margin-right: 10px;">Malaysia</a>
+                                </div>
+                            </div>
+        
+                            <a class="more-details" href="#analytic">more details</a>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="row" style="margin-top: 10px;">
+                                <div class="col">
+                                    <div class="card">
+                                        <h6 class="number-status text-center" id="number-confirmed">18,000,000</h6>
+                                    </div>
+                                    <div class="card">
+                                        <h7 class="word-status text-center bg-danger">Confirmed</h7>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <h6 class="number-status text-center" id="number-recovered">18,000,000</h6>
+                                    </div>
+                                    <div class="card">
+                                        <h7 class="word-status text-center bg-success">Recovered</h7>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <h6 class="number-status text-center" id="number-deaths">18,000,000</h6>
+                                    </div>
+                                    <div class="card">
+                                        <h7 class="word-status text-center bg-secondary">Deaths</h7>
+                                    </div>
+                                </div>
+                            </div>                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-table card col col-3">
+                
+                </div>
+            </div>
+        </div>
+        
+        <div class="covid content" id="covid" style="height: 1000px;">
+            Ini covid
+        </div>
+
+        <div class="analytic content" id="analytic" style="height: 1000px;">
+            Ini analytic
+        </div>
+
+        <div class="prevention content" id="prevention" style="height: 1000px;">
+            Ini prevention
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </body>
+</html>
